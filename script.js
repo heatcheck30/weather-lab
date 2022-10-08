@@ -6,7 +6,9 @@ const tempDisplay = document.querySelector("#temperature");
 const feelDisplay = document.querySelector("#feel-like");
 const conditionDisplay = document.querySelector("#condition");
 
-
+//You might want to begin breaking up your code into more functions.
+//const getWeatherData = () =>{fetch here}
+//submitBtn.addEventListener('click', getWeatherData)
 
 submitBtn.addEventListener("click", (e) => {
     e.preventDefault()
